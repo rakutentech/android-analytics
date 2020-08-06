@@ -6,7 +6,7 @@ This repository contains the published Analytics artifacts using [GitHub Package
 
 ## Getting started
 
-To access and use the Analytics artifacts, you must add the Analytics GitHub Packages repository to your root Gradle config.
+To access and use the Analytics artifacts, you must add the Analytics GitHub Packages repository to your project's Gradle config.
 
 ```gradle
 repositories {
@@ -16,6 +16,10 @@ repositories {
       password = "your_github_personal_access_token"
     }
   }
+}
+
+dependency {
+  implementation 'com.rakuten.tech.mobile.analytics:analytics:${latest_version}'
 }
 ```
 
