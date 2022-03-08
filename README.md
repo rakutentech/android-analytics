@@ -2,7 +2,7 @@
 
 The Analytics module enables applications to record user activity and automatically send tracking events to a configured endpoint.
 
-This SDK supports Android API level 21 (Lollipop) and above and has been tested with Android API level 21 (Lollipop) and above. It is intended to be used only by Rakuten approved applications.
+This SDK supports Android API level 23 (Marshmallow) and above and has been tested with Android API level 23 (Marshmallow) and above. It is intended to be used only by Rakuten approved applications.
 
 This repository contains the published Analytics artifacts using [GitHub Packages](https://docs.github.com/en/packages).
 
